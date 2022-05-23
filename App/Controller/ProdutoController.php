@@ -1,6 +1,6 @@
 <?php
 
-
+//Criação da Classe Controller 
 class ProdutoController 
 {
     public static function index()

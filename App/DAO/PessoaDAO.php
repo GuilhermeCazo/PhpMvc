@@ -41,7 +41,8 @@ class PessoaDAO
     public function insert(PessoaModel $model)
     {
         // Trecho de código SQL com marcadores ? para substituição posterior, no prepare
-        $sql = "INSERT INTO pessoa (nome, cpf, data_nascimento, rg, sexo, rua, numero, id_cidade, telefone) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?,) ";
+        $sql = "INSERT INTO pessoa (nome, cpf, data_nascimento, rg, sexo, rua, numero, id_cidade, telefone) 
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) ";
 
 
         // Declaração da variável stmt que conterá a montagem da consulta. Observe que

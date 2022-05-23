@@ -16,7 +16,7 @@
         <legend>Cadastro de Categoria de Produtos</legend>
 
 
-        <form method="post" action="/CategoriaProduto/form/save">
+        <form method="post" action="/categoria_produto/form/save">
 
             <input type="hidden" value="<?= $model->id ?>" name="id" />
 

@@ -13,9 +13,9 @@
             <th></th>
             <th>Id</th>
             <th>Descricao</th>
-            <th>ID Categoria</th>
+            <th>ID_Categoria</th>
             <th>Preço de Venda</th>
-            <th> Preço de Compra</th>
+            <th>Preço de Compra</th>
         </tr>
 
         <?php foreach($model->rows as $item): ?>
